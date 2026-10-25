@@ -1,0 +1,52 @@
+#String variables
+name: Kunal Kushwaha
+fruit: "apple"
+job: 'swe'
+
+bio: |
+hey my name is anant
+I am very nice dude
+
+#write a single line in multiple lines
+message: >
+This will
+all be 
+in one single line
+
+#same as
+message: !!str this will all be in one single line
+
+number: 5473
+marks: 90.56
+booleanValue: !!bool No    #n, N, false, False, FALSE
+#same for true -> yes, y, Y
+
+#specify a type
+zero: !!int 0
+positiveNum: !!int 44
+negativeNum: !!int -44
+binaryNum: !!int 0b11101
+octalNum: !!int 0632
+hexa: !!int 0x44
+commaValue: !!int + 540_000 #540,000
+exponential numbers: 6.023E56
+
+#floating point numbers
+marks: !!float 56.90
+inifinity: !!float .inf
+not a num: .nan 
+
+#null 
+surname: !!null NUll #or null NULL ~
+~: this is a null
+
+#dates and time
+date: !!timestamp 2026-09-07
+India time: 2026-09-07T02:59:43.10 +5:30
+no time zone: 2026-09-07T02:59:43.10
+
+
+
+
+
+

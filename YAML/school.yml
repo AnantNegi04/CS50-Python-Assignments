@@ -1,0 +1,8 @@
+---
+School:
+     -name: DPS
+      principal: Someone
+      Students:
+         -rno: 12
+          name: anant
+          marks: 43
